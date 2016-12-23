@@ -15,5 +15,5 @@
 if ($multiple) {
     echo "<p>Multiple isn't supported for json-property {$property_key}</p>";
 } else {
-    echo $form->field($model, "${property_key}[0]")->widget(devgroup\jsoneditor\Jsoneditor::class);
+    echo $form->field($model, "${property_key}[0]")->widget(\devgroup\jsoneditor\Jsoneditor::class);
 }
