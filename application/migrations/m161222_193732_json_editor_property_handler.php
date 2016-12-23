@@ -1,7 +1,7 @@
 <?php
 
 use app\models\PropertyHandler;
-use app\properties\handlers\redactor\json\JsonProperty;
+use app\properties\handlers\json\JsonProperty;
 use yii\db\Migration;
 
 class m161222_193732_json_editor_property_handler extends Migration
