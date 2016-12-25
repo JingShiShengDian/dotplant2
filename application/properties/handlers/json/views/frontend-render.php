@@ -38,7 +38,7 @@ foreach ($values->values as $val) {
 $result = trim($result);
 
 if (!empty($result)) {
-    echo '<dl itemprop="itemListElement" itemscope itemtype="http://schema.org/NameValueStructure">' .
-        Html::tag('dt', $property->name, ['itemprop'=>'name']) .
-        $result . "</dl>\n\n";
+    echo '<dl itemprop="itemListElement" itemscope itemtype="http://schema.org/NameValueStructure">'
+        . Html::tag('dt', $property->name, ['itemprop'=>'name'])
+        . $result . "</dl>\n\n";
 }
